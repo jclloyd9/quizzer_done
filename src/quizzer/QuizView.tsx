@@ -5,12 +5,6 @@ import { QuizEdit } from "./QuizEdit";
 
 import "./QuizView.css";
 
-// line 15: Property 'quiz' does not exist on type '{}'.
-// line 19:   
-    // {quiz: Quiz,
-    // editQuiz: (qId: number, newQuiz: Quiz) => void,
-    // deleteQuiz: (qId: number) => void,
-    // resetView: () => void}
 export const QuizView = ({
     quiz,
     editQuiz,
